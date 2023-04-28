@@ -1,4 +1,4 @@
-# weather-app
+# Weather App
 A basic react native app to fetch weather and display appropriate messages.
 ## Topics Covered:
 ### UI/UX implementation
