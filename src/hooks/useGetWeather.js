@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import * as Location from 'expo-location'
-import { WEATHER_API_KEY } from '@env'
+
 
 export const useGetWeather = () => {
+  const WEATHER_API_KEY = "your api key"
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [weather, setWeather] = useState([])
